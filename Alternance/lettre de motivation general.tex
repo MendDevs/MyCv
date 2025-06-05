@@ -1,0 +1,63 @@
+\documentclass[11pt]{letter}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=NavyBlue,
+  linkcolor=NavyBlue,
+  pdfborder={0 0 0}
+}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\longindentation=0pt
+\signature{}
+\makeatletter
+\def\opening#1{\ifx\@empty\fromaddress\else
+  \noindent\fromaddress \par
+  \fi
+  \vspace{2\parskip}%
+  {\raggedright \toname \par}%
+  \vspace{2\parskip}%
+  #1\par\nobreak}%
+\makeatother
+\begin{document}
+\fromaddress{%
+  \raggedright
+  \textbf{Emmanuel Markie Morris} \\
+  Étudiant Ingénieur Informatique \\[0.5em]
+  \faMapMarker* \hspace{0.3em} Limoges, France \\
+  \faEnvelope \hspace{0.3em} \href{mailto:morrisemmanuelmarkie@gmail.com}{morrisemmanuelmarkie@gmail.com} \\
+  \faPhone \hspace{0.3em} +33 7 59 53 06 03 \\
+  \faGithub \hspace{0.3em} \href{https://github.com/MendDevs}{github.com/MendDevs} \\
+  \faGlobe \hspace{0.3em} \href{https://menddevs.github.io}{menddevs.github.io}%
+}
+\vspace{1em}
+\noindent \\ \\ \textbf{Objet :} Candidature pour un contrat d'alternance en ingénierie informatique
+\opening{Madame, Monsieur,}
+
+Étudiant en ingénierie informatique à 3iL École d'Ingénieurs à Limoges, je suis à la recherche d’un \textbf{contrat d’alternance de trois ans} pour la période 2025-2028, disponible immédiatement. Je souhaite apprendre aux côtés de professionnels expérimentés tout en apportant ma contribution aux projets de votre équipe. À l’issue de ma formation, je serais également \textbf{ouvert à un CDI} afin de continuer à évoluer au sein de votre entreprise.
+
+Dans l’objectif de devenir ingénieur Fullstack, j’ai acquis des compétences dans les domaines suivants :
+
+\begin{itemize}
+  \item \textbf{Développement Web, Mobile et Logiciel} : Java, Python, React, Spring Boot, Node.js
+  \item \textbf{DevOps et Cloud} : AWS, Docker, Kubernetes
+  \item \textbf{Bases de données} : SQL, MongoDB
+\end{itemize}
+
+Lors de mon stage chez Maprica Group au Panama, j’ai contribué au développement d’une application de gestion en Java/Flask, intégré un pipeline CI/CD, et collaboré au déploiement Dockerisé. Cette expérience m’a permis de confronter mes acquis académiques aux réalités techniques d’un projet d’envergure.
+
+En parallèle, j’ai mené divers projets personnels tels qu’un logiciel de gestion d’employés, un site web portfolio, un assistant IA, un serveur NAS personnel et une messagerie décentralisée. Tous ces projets sont accessibles sur mon GitHub et illustrent ma passion pour l'ingénierie logicielle et mon engagement à apprendre de manière autonome.
+
+Conscient que l’alternance est avant tout une opportunité d’apprentissage, je suis motivé à acquérir les bonnes pratiques professionnelles et à m’investir pleinement dans les missions qui me seront confiées.
+
+Je serais ravi de vous rencontrer afin d’échanger sur cette opportunité.
+
+\closing{Cordialement,\\[1em]\textbf{Emmanuel Markie Morris}}
+
+\end{document}
